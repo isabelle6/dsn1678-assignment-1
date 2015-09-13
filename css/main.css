@@ -16,3 +16,10 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+    background-image: url(../images/flamingo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
