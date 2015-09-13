@@ -17,9 +17,43 @@ html {
     box-sizing: inherit;
 }
 
+.name {
+    margin: 0;
+    padding: 0.5em 0 0 0.5em;
+    width: 65%;
+    font-size: 1.5em;
+}
+
 body {
-    background-image: url(../images/flamingo.jpg);
-    background-repeat: no-repeat;
+    margin: 0;
+    background: url(../images/flamingo.jpg) no-repeat top;
     background-size: 100%;
+}
+
+.info {
+    margin: 0;
+    padding-left: 0.5em;
+    width: 65%;
+}
+
+.bio {
+    margin: 0;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+.email {
+    margin: 0;
+    padding-left: 0.5em;
+}
+
+@media only screen and (min-width:38em) {
+    
+    .name {
+        font-size: 2em;
+    }
+    
+    .info {
+        width: 50%;
+    }
     
 }
